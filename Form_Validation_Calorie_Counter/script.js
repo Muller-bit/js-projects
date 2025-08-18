@@ -16,6 +16,7 @@ function isInvalidInput(str) {
   return str.match(regex);
 }
 
-function addEntry() {
+function addEntry(){
 const targetInputContainer = document.querySelector(`#${entryDropdown.value} .input-container`);
+let entryNumber = targetInputContainer.querySelectorAll();
 }
